@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essence Couture</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/Essence Couture.png" alt="Essence Couture Logo">
+            <h1>Essence Couture</h1>
+            <p>SINCE 2011</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Registro</a></li>
+                <li><a href="info.html">Información</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Fragancias que capturan tu esencia</h2>
+            <p>Perfumes exclusivos creados con ingredientes naturales y sostenibles.</p>
+            <button class="cta-button">Atención Más</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>En Essence Couture, nuestra misión es crear fragancias únicas que capturen la esencia de cada persona. Utilizamos ingredientes naturales y sostenibles para ofrecer una experiencia sensorial inigualable a nuestros clientes.</p>
+    </section>
+
+    <section id="products">
+        <h2>Nuestros Perfumes</h2>
+        <div class="product-grid">
+            <div class="product">
+                <h3>Eterna Primavera</h3>
+                <img src="img/2.png" alt="Eterna Primavera">
+                <p>Un perfume floral con notas de jazmín, rosa y lavanda, ideal para el día.</p>
+                <button class="add-to-cart" data-name="Eterna Primavera" data-price="10.00">Añadir al Carrito</button>
+            </div>
+            <div class="product">
+                <h3>Noche Mística</h3>
+                <img src="img/4.png" alt="Noche Mística">
+                <p>Una fragancia intensa con toques de ámbar, vainilla y sándalo, perfecta para la noche.</p>
+                <button class="add-to-cart" data-name="Noche Mística" data-price="20.00">Añadir al Carrito</button>
+            </div>
+            <div class="product">
+                <h3>Esencia Tropical</h3>
+                <img src="img/3.png" alt="Esencia Tropical">
+                <p>Un perfume fresco y vibrante con notas de cítricos y frutas exóticas, ideal para climas cálidos.</p>
+                <button class="add-to-cart" data-name="Esencia Tropical" data-price="15.00">Añadir al Carrito</button>
+            </div>
+            <div class="product">
+                <h3>Bosque Secreto</h3>
+                <img src="img/1.png" alt="Bosque Secreto">
+                <p>Fragancia unisex con aromas de madera de cedro, pino y musgo, evocando la tranquilidad de un bosque.</p>
+                <button class="add-to-cart" data-name="Bosque Secreto" data-price="18.00">Añadir al Carrito</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="cart">
+        <h2>Carrito de Compras</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="total">0.00</span></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Para más información, contáctanos en <a href="mailto:info@essencecouture.com">info@essencecouture.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Essence Couture. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/carrito.js"></script>
+</body>
+</html>

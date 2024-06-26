@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #004b4e; /* Color petróleo */
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #017d7d; /* Color petróleo más claro */
+}
+
+.hero {
+    background-color: #004b4e; /* Fondo petróleo */
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero .cta-button {
+    background-color: #d4af37; /* Dorado */
+    color: #004b4e; /* Texto petróleo */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.hero .cta-button:hover {
+    background-color: #b3942e; /* Dorado oscuro */
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section#about {
+    background-color: #fff;
+    text-align: center;
+}
+
+section#products {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product button {
+    background-color: #d4af37; /* Dorado */
+    color: #004b4e; /* Texto petróleo */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #b3942e; /* Dorado oscuro */
+}
+
+.cart {
+    background-color: #fff;
+    text-align: center;
+}
+
+.cart h2 {
+    margin-bottom: 20px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#total {
+    font-weight: bold;
+}
+
+section#contact {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+section#contact a {
+    color: #004b4e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #004b4e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
